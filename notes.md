@@ -31,3 +31,11 @@ configure --.prettierignore.js
 *.env
 .env
 .env.*
+
+
+
+#Database connection
+ npm i dotenv express  mongoose
+ 
+for dotenv 
+ in package.json "dev": -r dotenv/config --experimental-json-modules
