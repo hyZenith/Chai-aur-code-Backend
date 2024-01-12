@@ -39,3 +39,14 @@ configure --.prettierignore.js
  
 for dotenv 
  in package.json "dev": -r dotenv/config --experimental-json-modules
+
+
+#custom api and error handling
+    app.use -->used in the case of middlware    
+    npm i cookie-parser cors
+
+
+ <!--creating asyncHandler in utils folder  -->
+ <!-- creating ApiError in utils folder -->
+
+ 
