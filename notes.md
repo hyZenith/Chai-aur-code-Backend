@@ -14,7 +14,7 @@ mkdir controllers db middlewares models routes utils
 npm i -D prettier
 touch .prettier.js .prettierignore.js
  
- configure --.prettier.js
+ configure --.prettierrc
  {
     "singleQuote": false,
     "bracketSpacing": true,
