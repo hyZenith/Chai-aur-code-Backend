@@ -69,6 +69,21 @@ for dotenv
 
      bcrypt and jsonwebtoken is imported in user.model.js
      
-# ** directly encryption is not possible , so we have to use some hooks from mongoose
+ ** directly encryption is not possible , so we have to use some hooks from mongoose 
 
-   
+
+# File upload in Backend
+ > two packages are used for file uploading 
+  1) express fileupload
+  2) Multer(mostly used )
+  
+  >> after login in cloudinary.com 
+    installing cloudinary
+    --  npm install cloudinary
+    installing multer for file uploading
+    -- npm i multer
+
+  # creating cloudinary.js in utils folder for cloudinary code
+  //after writing the code on cloudinary.js
+  > creating middleware with the help of multer
+    > creating multer.middleware.js
