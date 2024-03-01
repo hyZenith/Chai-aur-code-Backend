@@ -54,7 +54,7 @@ userSchema.pre("save", async function (next) {
   // for evertime we change something or update , the password will update . so for this to stop everytime we write --
   if (!this.isModified("password")) return next();
 
-  this.password = bcrypt.hash(this.password, 10);
+  this.password = await bcrypt.hash(this.password, 10);
   // (this.password , hash rounds)
   next();
 }); // in "" types of middleware is used [https://mongoosejs.com/docs/middleware.html]

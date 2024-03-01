@@ -95,3 +95,24 @@ for dotenv
  - Routes import in app.js
   import routername from './path' 
 
+
+# Logic Building | Register Controller
+
+  Logic for registering user (depend on the datas u get from front-end || user.model.js)>
+
+  // get user details from front-end
+  //validation -- not empty
+  //check if user already exist : username ,email
+  // check for images,check for the avatar
+  //upload to cloudinary ,check avatar 
+  //create user object - create entry in db
+  //remove password and refresh token field from response
+  //check for user creation
+  // return response
+
+
+
+
+
+
+
