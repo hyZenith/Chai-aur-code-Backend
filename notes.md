@@ -91,4 +91,7 @@ for dotenv
          > creating multer.middleware.js
 
 
-#
+# Router and Controller with debugging
+ - Routes import in app.js
+  import routername from './path' 
+
