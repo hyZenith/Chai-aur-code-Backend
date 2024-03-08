@@ -115,3 +115,17 @@ for dotenv
 
 
 
+# Access refresh token 
+creating loginUser 
+
+User is mongodb User(capital User)
+user is created by me
+
+after checking user and password
+create refresh token  
+ 
+new method is created for refreshToken
+
+
+for logoutuser -> refreshToken should be clear
+creating own middleware in middleware folder -> auth.middleware.js , it will check whether user is there or not
